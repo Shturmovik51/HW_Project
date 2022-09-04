@@ -30,12 +30,12 @@ public class JobsWork : MonoBehaviour
     {
         //StartIJobTask();
         //StartIJobParallelForTask();
-        PrepairIJobRotationTask();
+        //PrepairIJobRotationTask();
     }
 
     private void Update()
     {
-        StartIJobRotationTask();
+        //StartIJobRotationTask();
     }
 
     private void StartIJobTask()
