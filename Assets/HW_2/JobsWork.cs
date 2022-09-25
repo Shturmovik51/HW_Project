@@ -74,7 +74,7 @@ public class JobsWork : MonoBehaviour
         _finalPositions.Dispose();
     }
 
-    private void PrepairIJobRotationTask()
+    private void PrepareIJobRotationTask()
     {
         _angles = new NativeArray<int>(_objectsCount, Allocator.Persistent);
         var transforms = new Transform[_objectsCount];
